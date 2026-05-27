@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tokyo-sensoji",
+    "name": "浅草寺",
+    "city": "东京",
+    "description": "东京很有代表性的古老寺院，附近有热闹的仲见世商店街，适合第一次去东京时安排。"
+  },
+  {
+    "id": "tokyo-shibuya-sky",
+    "name": "涩谷 Sky",
+    "city": "东京",
+    "description": "可以俯瞰东京市区和涩谷十字路口的观景台，傍晚和夜景都很受欢迎。"
+  },
+  {
+    "id": "kyoto-fushimi-inari",
+    "name": "伏见稻荷大社",
+    "city": "京都",
+    "description": "以成排的红色鸟居闻名，可以沿着山路慢慢散步，清晨人会少一些。"
+  },
+  {
+    "id": "kyoto-arashiyama",
+    "name": "岚山竹林",
+    "city": "京都",
+    "description": "京都经典自然景点，附近还有渡月桥、寺院和小店，适合安排半日游。"
+  },
+  {
+    "id": "osaka-dotonbori",
+    "name": "道顿堀",
+    "city": "大阪",
+    "description": "大阪热闹的美食和夜景区域，可以吃章鱼烧、大阪烧，也适合拍霓虹招牌。"
+  },
+  {
+    "id": "nara-park",
+    "name": "奈良公园",
+    "city": "奈良",
+    "description": "可以近距离看到小鹿，也能顺路参观东大寺、春日大社等历史景点。"
+  }
+]
