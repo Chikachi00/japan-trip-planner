@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  color: #222;
+  background: #eef3f2;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  margin-bottom: 24px;
+  padding: 28px;
+  color: white;
+  background: #1f4f46;
+  border-radius: 8px;
+}
+
+header h1,
+header p,
+.section-title h2,
+.spot-card h3 {
+  margin: 0;
+}
+
+header h1 {
+  margin-bottom: 8px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: white;
+  border: 1px solid #d3ddd9;
+  border-radius: 8px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-weight: bold;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b8c8c2;
+  border-radius: 6px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 24px;
+  align-items: start;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.card-list {
+  display: grid;
+  gap: 12px;
+}
+
+.spot-card,
+aside {
+  padding: 16px;
+  background: white;
+  border: 1px solid #d3ddd9;
+  border-radius: 8px;
+}
+
+.spot-card p {
+  margin: 8px 0;
+}
+
+.meta,
+.muted,
+#placeCount {
+  color: #666;
+}
+
+.spot-card button,
+#clearFavorites {
+  margin-top: 8px;
+  padding: 8px 12px;
+  color: white;
+  background: #ca5f48;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.spot-card button.saved {
+  background: #24786d;
+}
+
+#clearFavorites {
+  margin-top: 0;
+  background: #555;
+}
+
+#favoritesList {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#favoritesList li {
+  padding: 10px;
+  background: #f2f6f4;
+  border-radius: 6px;
+}
+
+@media (max-width: 720px) {
+  .controls,
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
