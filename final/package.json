@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "backend": "npm --prefix backend run start",
+    "web": "npm --prefix web-app run dev",
+    "mobile": "npm --prefix mobile-app run start"
+  }
+}
