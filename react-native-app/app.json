@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Japan Trip Planner",
+    "slug": "japan-trip-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": ["ios", "android", "web"]
+  }
+}
